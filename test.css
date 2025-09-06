@@ -91,13 +91,18 @@ hr {
 
 .hireme,
 .CV {
+  background-color: rgba(57, 62, 70, 0.75);
+  color: #ffffff;
   border-radius: 24px;
   text-decoration: none;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  font-weight: bold;
+  padding: 0.5rem 1.5rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  transition: background-color 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 0.5rem;
+  backdrop-filter: blur(4px);
+  text-align: center; 
 }
 
 .hireme {
